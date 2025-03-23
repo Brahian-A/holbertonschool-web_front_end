@@ -14,7 +14,7 @@ html
 
 body
 {
-	margin: 0
+	margin: 0;
 }
 
 main
@@ -25,38 +25,38 @@ main
 h1
 {
 	font-size: 2em;
-	margin: .67em 0
+	margin: .67em 0;
 }
 
 hr
 {
 	box-sizing: content-box;
 	height: 0;
-	overflow: visible
+	overflow: visible;
 }
 
 pre
 {
 	font-family: monospace, monospace;
-	font-size: 1em
+	font-size: 1em;
 }
 
 a
 {
-	background-color: transparent
+	background-color: transparent;
 }
 
 abbr[title]
 {
 	border-bottom: none;
 	text-decoration: underline;
-	text-decoration: underline dotted
+	text-decoration: underline dotted;
 }
 
 b,
 strong
 {
-	font-weight: bolder
+	font-weight: bolder;
 }
 
 code,
@@ -64,12 +64,12 @@ kbd,
 samp
 {
 	font-family: monospace, monospace;
-	font-size: 1em
+	font-size: 1em;
 }
 
 small
 {
-	font-size: 80%
+	font-size: 80%;
 }
 
 sub,
@@ -78,22 +78,22 @@ sup
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
-	vertical-align: baseline
+	vertical-align: baseline;
 }
 
 sub
 {
-	bottom: -.25em
+	bottom: -.25em;
 }
 
 sup
 {
-	top: -.5em
+	top: -.5em;
 }
 
 img
 {
-	border-style: none
+	border-style: none;
 }
 
 button,
@@ -105,19 +105,19 @@ textarea
 	font-family: inherit;
 	font-size: 100%;
 	line-height: 1.15;
-	margin: 0
+	margin: 0;
 }
 
 button,
 input
 {
-	overflow: visible
+	overflow: visible;
 }
 
 button,
 select
 {
-	text-transform: none
+	text-transform: none;
 }
 
 [type=button],
@@ -125,7 +125,7 @@ select
 [type=submit],
 button
 {
-	-webkit-appearance: button
+	-webkit-appearance: button;
 }
 
 [type=button]::-moz-focus-inner,
@@ -161,31 +161,26 @@ legend
 
 progress
 {
-	vertical-align: baseline
-}
-
-textarea
-{
-	overflow: auto
+	vertical-align: baseline;
 }
 
 [type=checkbox],
 [type=radio]
 {
 	box-sizing: border-box;
-	padding: 0
+	padding: 0;
 }
 
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button
 {
-	height: auto
+	height: auto;
 }
 
 [type=search]
 {
 	-webkit-appearance: textfield;
-	outline-offset: -2px
+	outline-offset: -2px;
 }
 
 [type=search]::-webkit-search-decoration
@@ -370,7 +365,6 @@ a:active
 {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
 	list-style: none;
 	text-align: center;
 }
