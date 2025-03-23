@@ -393,8 +393,8 @@ a:active
 .nav .nav-link
 {
 	display: block;
-	padding-top: calc(0.5 * 1rem);
-	padding-bottom: calc(0.5 * 1rem);
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
