@@ -243,14 +243,12 @@ template
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
-
     --section-padding: 5rem 0;
 	--section-header-padding: 0 0 3rem;
 	--section-body-padding: 0 0 3rem;
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
-    
     --nav-item-font-family: var(--font-family-title);
 	--nav-item-font-weight: var(--font-weight-bold);
 	--nav-item-font-size: var(--font-size-medium);
@@ -275,12 +273,7 @@ body
 	line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
+h1, h2, h3, h4, h5, h6
 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
@@ -395,13 +388,10 @@ a:active
 .nav .nav-link
 {
 	display: block;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover
 {
-	color: var(--color-primary);
+	color: var(--nav-item-link-hover);
 }
