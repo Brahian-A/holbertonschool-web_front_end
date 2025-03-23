@@ -479,3 +479,8 @@ ul.row
 	background-color: var(--color-primary);
 	text-decoration: none;
 }
+
+.card-category
+{
+	color: var(--color-primary);
+}
