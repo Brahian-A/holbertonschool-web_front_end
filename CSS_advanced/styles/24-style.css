@@ -303,6 +303,26 @@ a:active
 	background: var(--color-light-grey);
 }
 
+.card-services .card-title
+{
+	margin: 0;
+}
+
+.card-services a
+{
+	display: block;
+	padding: 2rem;
+	background: var(--color-light-grey);
+}
+
+.card-services a:hover,
+.card-services a:active
+{
+	color: var(--color-white);
+	background-color: var(--color-primary);
+	text-decoration: none;
+}
+
 ul.row
 {
 	margin: 0;
@@ -460,23 +480,5 @@ ul.row
     clear: both;
 }
 
-.card-services .card-title
-{
-	margin: 0;
-}
 
-.card-services a
-{
-	display: block;
-	padding: 2rem;
-	background: var(--color-light-grey);
-}
-
-.card-services a:hover,
-.card-services a:active
-{
-	color: var(--color-white);
-	background-color: var(--color-primary);
-	text-decoration: none;
-}
 
